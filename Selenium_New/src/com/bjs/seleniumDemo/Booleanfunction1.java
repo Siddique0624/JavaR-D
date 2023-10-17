@@ -30,6 +30,7 @@ public class Booleanfunction1 {
 		else {
 
 			System.out.println("Date not selected");
+			System.out.println("Date not selected");
 		}
 
 	}
