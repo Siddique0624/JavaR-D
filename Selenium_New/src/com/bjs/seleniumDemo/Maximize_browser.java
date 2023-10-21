@@ -10,6 +10,8 @@ public class Maximize_browser {
 	//	System.setProperty("webdriver.chrome.driver ", "C:\\Selenium Componenet\\chromedriver.exe");
 	ChromeDriver driver=new ChromeDriver();
 	driver.manage().window().maximize(); 
+	driver.getKeyboard();
+	driver.close();
 	
 	}
 }
