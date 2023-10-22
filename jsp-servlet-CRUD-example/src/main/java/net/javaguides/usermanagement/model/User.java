@@ -54,7 +54,5 @@ public class User {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public void setCountry1(String country) {
-		this.country = country;
-	}
+	 
 }
