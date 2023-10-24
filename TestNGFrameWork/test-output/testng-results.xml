@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-14T11:45:15Z" name="Suite" finished-at="2023-06-14T11:45:16Z" duration-ms="70">
+    <groups>
+      <group name="inbox">
+        <method signature="Xml_groups.postivecredential1()[pri:1, instance:com.bjs.testngdemo.Xml_groups@2d52216b]" name="postivecredential1" class="com.bjs.testngdemo.Xml_groups"/>
+        <method signature="Xml_groups.postivecredential4()[pri:0, instance:com.bjs.testngdemo.Xml_groups@2d52216b]" name="postivecredential4" class="com.bjs.testngdemo.Xml_groups"/>
+      </group> <!-- inbox -->
+    </groups>
+    <test started-at="2023-06-14T11:45:15Z" name="Test" finished-at="2023-06-14T11:45:16Z" duration-ms="70">
+      <class name="com.bjs.testngdemo.Xml_groups">
+        <test-method signature="postivecredential4()[pri:0, instance:com.bjs.testngdemo.Xml_groups@2d52216b]" started-at="2023-06-14T11:45:16Z" name="postivecredential4" finished-at="2023-06-14T11:45:16Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postivecredential4 -->
+        <test-method signature="postivecredential1()[pri:1, instance:com.bjs.testngdemo.Xml_groups@2d52216b]" started-at="2023-06-14T11:45:16Z" name="postivecredential1" finished-at="2023-06-14T11:45:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postivecredential1 -->
+      </class> <!-- com.bjs.testngdemo.Xml_groups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
