@@ -14,7 +14,7 @@ public class BeforeAfterClass {
 	public void BeforeClass() {
 		System.out.println("BeforeClass");
 	}
-	@AfterClass
+	@AfterMethod
 	public void AfterClass() {
 		System.out.println("AfterClass");
 	}
