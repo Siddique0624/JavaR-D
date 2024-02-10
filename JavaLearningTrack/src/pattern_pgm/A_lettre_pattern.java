@@ -1,6 +1,5 @@
 package pattern_pgm;
 import java.util.Scanner;
-
 class A_lettre_pattern 
 {
 	public static void main(String[] args) 
