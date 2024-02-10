@@ -23,3 +23,4 @@ class A_removedcornerlettre_pattern
 			}
 		}
 }
+		
