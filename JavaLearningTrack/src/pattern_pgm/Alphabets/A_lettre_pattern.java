@@ -1,3 +1,6 @@
+package pattern_pgm.Alphabets;
+
+
 import java.util.Scanner;
 class A_lettre_pattern 
 {
