@@ -5,12 +5,12 @@ import java.util.Comparator;
 import java.lang.*;
 
 
-class Cricket2  
+class Cricket201  
 {
 	String name;
 	float avg;
 	int runs;
-	public Cricket2(String name, float avg, int runs) {
+	public Cricket201(String name, float avg, int runs) {
 		super();
 		this.name = name;
 		this.avg = avg;
@@ -28,9 +28,9 @@ class Cricket2
 public class  LaunchCricketrAnonymosclass   {
 	public static void main (String args[])
 	{
-	       Cricket2 c1=new Cricket2("Sachin",43.5f ,7000);
-	       Cricket2 c2=new Cricket2("Dhoni",45.3f ,5000);
-	       Cricket2 c3=new Cricket2("Virat",50.2f ,4000);
+	       Cricket201 c1=new Cricket201("Sachin",43.5f ,7000);
+	       Cricket201 c2=new Cricket201("Dhoni",45.3f ,5000);
+	       Cricket201 c3=new Cricket201("Virat",50.2f ,4000);
 	       ArrayList al=new  ArrayList();
 	        al.add(c1);
 	        al.add(c2);
@@ -41,7 +41,7 @@ public class  LaunchCricketrAnonymosclass   {
 
 	        	@Override
 	        	public int compare(Object x, Object y) {
-	        		if( ((Cricket2)(x)).runs>((Cricket2)(y)).runs)
+	        		if( ((Cricket201)(x)).runs>((Cricket201)(y)).runs)
 	        			return 1;
 	        	else
 	        	return -1;
